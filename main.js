@@ -5,6 +5,8 @@ var app = new Vue({
 		description: 'A pair of warm, fuzzy socks.',
 		image: './assets/vmSocks-green-onWhite.jpg',
 		altText: 'A pari of socks',
-		link: 'https://en.wikipedia.org/wiki/Sock'
+		link: 'https://en.wikipedia.org/wiki/Sock',
+		inStock: true,
+		onSale: true
 	}
 });
