@@ -7,6 +7,31 @@ var app = new Vue({
 		altText: 'A pari of socks',
 		link: 'https://en.wikipedia.org/wiki/Sock',
 		inStock: true,
-		onSale: true
+		onSale: true,
+		details: ['80% cotton', '20% polyester', 'Gender-neutral'],
+		variants: [
+			{
+				variantId: 2234,
+				variantColor: 'green'
+			},
+			{
+				variantId: 2235,
+				variantColor: 'blue'
+			}
+		],
+		sizes: [
+			{
+				sizeId: 123,
+				sizeName: '35-38'
+			},
+			{
+				sizeId: 123,
+				sizeName: '39-41'
+			},
+			{
+				sizeId: 123,
+				sizeName: '41-43'
+			}
+		]
 	}
 });
